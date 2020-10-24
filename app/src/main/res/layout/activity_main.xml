@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="60dp"
-            android:text="Conteo"
+            android:text="@string/texto_etiqueta_conteo"
             android:textSize="20sp" />
 
         <EditText
@@ -54,14 +54,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Contar" />
+            android:text="@string/texto_boton_contar" />
 
         <Button
             android:id="@+id/reiniciar_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="Reiniciar" />
+            android:text="@string/texto_boton_reiniciar" />
     </LinearLayout>
 
 </LinearLayout>
